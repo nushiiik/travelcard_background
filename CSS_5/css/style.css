@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* body{
+    padding: 30px;
+}
+.list{
+    margin: 0 0 50px 0;
+
+}
+.list li{
+    margin: 0 0 10px 0;
+    padding: 0 0 0 25px;
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url('../img/Check_mark.svg.png') left/20px 20px no-repeat;
+}
+.block{
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #000;
+    background: black url("../img/071119 Аня Лебедева (40).jpg")  0 0/300px 300px no-repeat;
+}*/
+
+body{
+    background: #e8e8e8 url("../img/Ellipse_1_copy.png") 50% 130px no-repeat;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #273d46;
+}
+.container{
+    width: 841px;
+    padding: 168px 0 137px 0;
+    margin: 0 auto;
+}
+.content-top{
+    text-align: center;
+    margin: 0 0 65px 0;
+}
+.content-top_category{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    opacity: 0.6;
+    margin: 0 0 15px 0;
+}
+h1{
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 725px;
+    margin: 0 auto;
+}
+.content_img{
+    border: 10px solid #fff;
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    margin: 0 0 85px 0;
+}
+img{
+    max-width: 100%;
+}
+.content-bottom{
+    padding: 0 45px;
+}
+.content-bottom_text{
+    opacity: 0.8;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0 0 48px 0;
+}
+.content-bottom_text p{
+    margin: 0 0 40px 0;
+}
+.content-bottom_text p:last-child{
+    margin: 0;
+}
+.content-bottom-info_list{
+    margin: 0 0 59px 0;
+}
+.content-bottom-info_list li{
+    background: url('../img/check_icon.png') left no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 15px 0;
+    line-height: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+.content-bottom-info_list li:nth-child(1){
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.content-bottom-info_list li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+.content-bottom-info_list li:nth-child(3){
+    font-weight: bold;
+}
+.content-bottom-info_list li:nth-child(4){
+    text-decoration: line-through;
+}
+.content-bottom-info_list li:nth-child(4) span{
+    opacity: 0.3;
+}
+.content-bottom-info_list li:last-child {
+    margin: 0;
+}
+.content-bottom-info_link {
+    height: 44px;
+    line-height: 44px;
+    display: inline-block;
+    border-radius: 22px;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.3);
+    background: #80b7b3;
+    padding: 0 30px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+.content-bottom-info_link span{
+    padding: 0 32px 0 0;
+    background: url("../img/Shape_2.png") right no-repeat;
+}
+.content-bottom-info_link:hover{
+    background: #273d46;
+}
+.content-bottom-info_link:active{
+    position: relative;
+    top: 2px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+}
